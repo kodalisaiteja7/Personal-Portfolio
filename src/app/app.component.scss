@@ -26,3 +26,14 @@ h2 {
   font-size: 3.2rem;
   color: white;
 }
+
+#about-me {
+  .hard-skills__container {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+}
