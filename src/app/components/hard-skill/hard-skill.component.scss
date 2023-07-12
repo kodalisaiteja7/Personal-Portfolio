@@ -48,6 +48,7 @@
     opacity: 0.35;
     font-weight: bolder;
     z-index: -1;
+    cursor: default;
   }
 }
 
@@ -89,5 +90,8 @@
     content: "";
     background-color: #242424;
     border-radius: 10px;
+  }
+  &:hover {
+    transform: scale(1.03);
   }
 }

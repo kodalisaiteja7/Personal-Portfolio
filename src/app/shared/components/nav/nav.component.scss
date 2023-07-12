@@ -19,6 +19,21 @@
   }
 }
 
+@mixin underlineAnimation {
+  &::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: #FF7A5A;
+    transform: scale(0,1);
+    transform-origin: center;
+    transition: transform .35s;
+  }
+  &:hover::after, &.currentLink::after {
+    transform: scale(1,1);
+  }
+}
+
 nav {
   display: flex;
   justify-content: space-between;
