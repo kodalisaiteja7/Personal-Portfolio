@@ -55,13 +55,15 @@
   </div>
   <div class="about-me__skills">
     <div class="about-me__hard-kills" *ngIf="hardSkills.length > 0">
-      <h2>hard skills</h2>
+      <h4>¿Qué tecnologías manejo?</h4>
+      <h2>Hard Skills</h2>
       <div class="hard-skills__container">
         <app-hard-skill [hardSkill]="hardSkill" *ngFor="let hardSkill of hardSkills"></app-hard-skill>
       </div>
     </div>
     <div class="about-me__soft-skills" *ngIf="softSkills.length > 0">
-      <h2>soft skills</h2>
+      <h4>¿Qué habilidades blandas poseo?</h4>
+      <h2>Soft Skills</h2>
       <div class="soft-skills__container">
         <app-soft-skill [softSkill]="softSkill" *ngFor="let softSkill of softSkills"></app-soft-skill>
       </div>
