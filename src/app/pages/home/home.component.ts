@@ -3,6 +3,7 @@ import { PersonalDataService } from '../../services/personal-data.service';
 import { Skill } from '../../models/skill';
 import { Project } from '../../models/project';
 import { Institute } from '../../models/institute';
+import { Experience } from 'src/app/models/experience';
 
 @Component({
   selector: 'app-home',
@@ -18,6 +19,7 @@ export class HomeComponent {
   }
   cv = '';
   education: Institute[] = []
+  experience: Experience[] = []
   hardSkills: Skill[] = []
   softSkills: Skill[] = []
   projects: Project[] = []
@@ -28,7 +30,7 @@ export class HomeComponent {
   ngOnInit() {
     this.loading;
     this.personalDataService.getAllData().subscribe(data => {
-      const { name, occupation, summary, description, social_media, cv, education, skills, projects } = data;
+      const { name, occupation, summary, description, social_media, cv, education, experience, skills, projects } = data;
 
       this.personalInfo = { name, occupation, summary, description };
       this.social = {
@@ -38,6 +40,7 @@ export class HomeComponent {
       }
       this.cv = cv;
       this.education = education;
+      this.experience = experience;
       this.hardSkills = skills.hard_skills;
       this.softSkills = skills.soft_skills;
       this.projects = projects;
