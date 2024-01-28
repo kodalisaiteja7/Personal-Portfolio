@@ -3,19 +3,16 @@
 #introduction {
   margin-top: 0;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  gap: 32px;
+  justify-content: space-between;
   .introduction__content {
-    max-width: 640px;
-    margin: 0 16px;
+    max-width: 620px;
+    margin: 16px 32px 16px 48px;
   }
   .introduction__content-title {
     h1 {
       display: flex;
       flex-direction: column;
-      margin: 16px 0;
+      margin-left: 16px;
       font-weight: bold;
       .content-title_occupation {
         font-size: 6.6rem;
@@ -45,8 +42,8 @@
     line-height: 3.2rem;
   }
   .introduction__avatar {
-    border: 2px solid $aux-gold;
-    z-index: -1;
+    width: 575px;
+    height: 575px;
   }
   .introduction__avatar-profile {
     position: relative;
@@ -67,6 +64,7 @@
   display: flex;
   gap: 16px;
   justify-content: flex-end;
+  height: 0;
   .social-media_icon {
     width: 68px;
     height: 68px;
@@ -93,23 +91,25 @@
 }
 
 #about-me {
+  .about-me__intro {
+    h4 {
+      text-align: center;
+      margin-top: 32px;
+    }
+    h2 {
+      text-align: center;
+      margin: 4px 0 8px;
+    }
+  }
   .about-me__content-container {
-    background-color: #282828;
+    background-color: $aux-grey;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
-    padding: 44px;
-    padding-bottom: 32px;
-    border-radius: 24px;
+    padding: 32px 44px;
+    padding-bottom: 12px;
     line-height: 1.6;
     margin-bottom: 32px;
-    h2 {
-      font-size: 1.8rem;
-      margin: 0 0 14px 0;
-      line-height: 1.5;
-      border-bottom: none;
-      letter-spacing: normal;
-    }
     p {
       font-size: 1.5rem;
     }
@@ -124,45 +124,38 @@
     }
   }
   .about-me__hard-kills, .about-me__soft-skills {
-    h2 {
-      margin: 0;
-      width: auto;
-    }
+    margin: 32px 16px;
   }
   .hard-skills__container, .soft-skills__container {
     display: flex;
-    gap: 0 24px;
+    gap: 34px;
     flex-wrap: wrap;
+    margin: 40px 16px;
+    align-items: center;
     justify-content: center;
   }
   .about-me__soft-skills {
-    h2 {
+    h2, h4 {
       text-align: end;
-      padding-right: 0;
-      padding-left: 24px;
     }
     margin-top: 16px;
   }
 }
 
 #project {
+  h2, h4 {
+    text-align: center;
+  }
   .project__container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 32px;
+    margin: 24px 16px;
   }
-  h2 {
-    margin-bottom: 0;
-  }
-  h3 {
-    font-size: 2.2rem;
-    margin: 0 0 16px 24px;
-    border-bottom: none;
-    color: #fd886c;
-    line-height: 6rem;
-    letter-spacing: 6px;
+  h4 {
+    font-style:normal;
   }
 }
 
@@ -196,6 +189,22 @@
   }
 }
 
+@media (max-width: 1024px) {
+  #introduction {
+    flex-wrap: wrap;
+    justify-content: center;
+    .introduction__avatar {
+      width: 460px;
+      height: 415px;
+    }
+    .introduction__avatar-profile {
+      background: url('../../../assets/avatar-sm.png') top/contain no-repeat;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
 @media (max-width: 575px) {
   .introduction__avatar, .social-media {
     display: none;
@@ -204,6 +213,7 @@
   #introduction {
     .introduction__content-title {
       h1 {
+        margin-left: 0;
         .content-title_occupation {
           white-space:initial;
           border-right: none;
@@ -214,9 +224,19 @@
   }
 
   #about-me {
-    margin-top: 36px;
+    .about-me__intro {
+      h4 {
+        margin-top: 0;
+      }
+      h2 {
+        margin-bottom: 24px;
+      }
+    }
     .about-me__content-container {
       grid-template-columns: 1fr;
+    }
+    .hard-skills__container, .soft-skills__container {
+      gap: 16px;
     }
   }
 }
