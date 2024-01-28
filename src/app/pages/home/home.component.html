@@ -1,3 +1,7 @@
+<html lang="eng" class="notranslate" translate="no">
+  <head>
+    <meta name="google" content="notranslate">
+  </head>
 <div *ngIf="loading">
   <app-loader></app-loader>
 </div>
@@ -29,17 +33,21 @@
 <section id="about-me">
   <div class="about-me__content-container">
     <div class="about-me__content description">
-      <h2>Sobre Mí</h2>
+      <h2>About me</h2>
       <p *ngFor="let paragraph of personalInfo.description">{{ paragraph }} <br><br></p>
     </div>
     <div class="about-me__content education">
-      <h2>Educación</h2>
+      <h2>Education</h2>
       <ul>
         <app-edu-item *ngFor="let institute of education" [education]="institute"></app-edu-item>
       </ul>
+      <h2>experience</h2>
+      <ul>
+        <app-edu-item *ngFor="let exp of experience" [experience]="exp"></app-edu-item>
+      </ul>
     </div>
     <!-- <div class="about-me__content work">
-      <h3>Experiencia</h3>
+      <h3>Experience</h3>
       <ul>
         <li></li>
       </ul>
@@ -61,8 +69,8 @@
   </div>
 </section>
 <section id="project" *ngIf="projects.length > 0">
-  <h2>Proyectos</h2>
-  <h3>⭐Destacados</h3>
+  <h2>Projects</h2>
+  <h3>⭐Featured</h3>
   <div class="project__container">
     <app-card-project [project]="project" *ngFor="let project of projects"></app-card-project>
   </div>

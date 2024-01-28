@@ -12,12 +12,12 @@ p {
 }
 li {
   margin-bottom: 12px;
-  &.platzi {
+  &.university-of-cincinnati {
     .color {
       color: #97ca3f;
     }
   }
-  &.ispc {
+  &.saveetha-engineering-college {
     .color {
       color: #0ea8de;
     }
@@ -30,6 +30,21 @@ li {
   &.argentina-programa {
     .color {
       color: #ff6fc8;
+    }
+  }
+  &.accenture{
+    .color{
+      color: magenta;
+    }
+  }
+  &.tss-techsoft{
+    .color{
+      color: #0ea8de;
+    }
+  }
+  &.syntage-tech{
+    .color{
+      color: #97ca3f;
     }
   }
 }

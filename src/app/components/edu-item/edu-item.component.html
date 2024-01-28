@@ -1,8 +1,16 @@
 <li class="{{getClass()}}">
   <span class="tittle color">{{education.institute}}</span>
   <p *ngFor="let course of courses">{{course.date}}  <span class="slash color">//</span>  {{course.title}}
-    <span *ngFor="let description of course.description">
+    <!-- <span *ngFor="let description of course.description">
       <span class="slash color">//</span>  {{description}}
-    </span>
+    </span> -->
   </p>
 </li>
+<li class="{{getClassExp()}}">
+  <span class="tittle color">{{experience.company}}</span>
+  <p>{{experience.date}}  <span class="slash color">//</span>  {{experience.title}}
+ 
+  </p>
+</li>
+
+

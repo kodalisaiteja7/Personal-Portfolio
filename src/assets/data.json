@@ -1,60 +1,28 @@
 {
-  "name": "Carina Payleman",
-  "occupation": ["Web Developer", "Backend Developer", "Frontend Developer"],
-  "summary": "Programadora Web Full Stack con conocimientos en Django, Java, MySQL y Angular, comprometida en generar soluciones digitales eficientes, robustas y estéticas de calidad para satisfacer los objetivos de negocio y optimizar la experiencia de usuario. Destaco por mi creativa capacidad de resolución de problemas, iniciativa autodidacta con facilidad de aprendizaje, adaptabilidad frente a nuevas tecnologías y entusiasmo ante proyectos desafiantes.",
-  "description": ["Mi nombre es Carina y mi apellido es Payleman, por lo que me gusta referenciarme como @PaylemanC. Soy de Córdoba, Argentina, hablo y me desenvuelvo en español e inglés. Tengo conocimiento y práctica en entornos y lenguajes de Backend y Frontend, siempre estoy estudiando y practicando cosas nuevas que sumen y complementen mi perfil profesional, con una formación mayoritariamente autodidacta.", "La disciplina de nunca parar de aprender es uno de mis pilares, soy alguien que considera que la mejor forma de aprender es atreverse haciendo, por lo que siempre tengo un proyecto en mente y en proceso para aplicar nuevos conocimientos, amo los desafíos de código y los diseños UI para replicar. Me apasiona aprender y aplicar patrones de diseño, algoritmos, diagramas de flujo, accesibilidad web, frameworks y librerías, entre otros; y me encanta trabajar con gente que persigue ideales similares, destaco en proyectos colaborativos aprendiendo con rapidez y enseñando siempre dispuesta a dar una mano, sumando mi impecable resolución de problemas y adaptabilidad.", "Muchas gracias por interesarte en este portfolio. Te invito a continuar explorándolo 💖"],
+  "name": "Sai Teja Kodali",
+  "occupation": ["Full-Stack Developer", "Backend Developer", "Frontend Developer"],
+  "summary": "Full Stack Web Developer with knowledge in Angular, Java, AWS, and MySQL, committed to generating efficient, robust and quality aesthetic digital solutions to satisfy business objectives and optimize the user experience. I stand out for my creative problem-solving capacity, self-taught initiative with ease of learning, adaptability to new technologies and enthusiasm for challenging projects..",
+  "description": ["I am Sai Teja Kodali I have knowledge and experience in Backend and Frontend environments and languages, I am always studying and practicing new things that add and complement my professional profile. The discipline of never stopping learning is one of my pillars, I am someone who believes that the best way to learn is to dare by doing, so I always have a project in mind and in process to apply new knowledge, I love code challenges and UI designs to replicate. ", "I am passionate about learning and applying design patterns, algorithms, flowcharts, web accessibility, frameworks and libraries, among others; and I love working with people who pursue similar ideals, I excel in collaborative projects, learning quickly and teaching, always willing to lend a hand, adding my impeccable problem solving and adaptability.", "Thank you very much for your interest in this portfolio. I invite you to continue exploring it 😇"],
   "education": [
     {
       "id": 1,
-      "institute": "Platzi",
+      "institute": "University of Cincinnati",
       "courses": [
         {
           "id": 1,
-          "date": "11.2022 — Actualidad",
-          "title": "Escuela de Desarrollo Web, UX/UI, Habilidades Blandas y English Academy",
-          "description": ["Plataforma de cursos en tecnología", "@PaylemanC"]
+          "date": "Aug 2022 — Nov 2023",
+          "title": "Master of Engineering, Computer Science"
         }
       ]
     },
     {
       "id": 2,
-      "institute": "ISPC",
+      "institute": "Saveetha Engineering College",
       "courses": [
         {
           "id": 1,
-          "date": "02.2022 — Actualidad",
-          "title": "Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales",
-          "description": ["Cursando 2do año"]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "institute": "Codo a Codo",
-      "courses": [
-        {
-          "id": 1,
-          "date": "08.2023 — Actualidad",
-          "title": "Full Stack en Python",
-          "description": ["Proyecto 'Clan-F'"]
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "institute": "Argentina Programa",
-      "courses": [
-        {
-          "id": 1,
-          "date": "02.2022 — 04.2022",
-          "title": "#SéProgramar",
-          "description": ["1era etapa"]
-        },
-        {
-          "id": 2,
-          "date": "07.2022 — 01.2023",
-          "title": "#YoProgramo",
-          "description": ["2da etapa"]
+          "date": "June 2017 — May 2021",
+          "title": "Bachelor of Engineering, Computer Science"
         }
       ]
     }
@@ -62,11 +30,27 @@
   "experience": [
     {
       "id": 1,
-      "company": "",
-      "title": "",
-      "date": "",
-      "description": "",
-      "responsibilities": []
+      "company": "Accenture",
+      "title": "Full Stack Developer",
+      "date": "May 2021 - Aug 2022",
+      "description": "Worked as a Full Stack Developer for over a year",
+      "responsibilities": ["Built user-interactive web pages using ES6 Typescript, and Angular 7, Angular CLI, Webpack, HTML5, TypeScript, SASS, and CSS3.",
+      "Developed and maintained enterprise-level Java applications using Java 11, JavaServer Faces (JSF), and Java Enterprise Edition (Java EE).",
+      "Implemented customer side validations using Angular and created services on UI for storing and retrieving data from UI to the backend.",
+      "Was under migration of the project converting angular components and updating router Modules. Implemented the complete set up with configuration file changes.",
+      "Utilized JSF component libraries and custom components to enhance user experience and improve application functionality."]
+    },
+    {
+      "id": 2,
+      "company": "TSS Techsoft",
+      "title": "Software Developer",
+      "date": "May 2021 - Aug 2022",
+      "description": "Worked as a Full Stack Developer for over a year",
+      "responsibilities": ["Built user-interactive web pages using ES6 Typescript, and Angular 7, Angular CLI, Webpack, HTML5, TypeScript, SASS, and CSS3.",
+      "Developed and maintained enterprise-level Java applications using Java 11, JavaServer Faces (JSF), and Java Enterprise Edition (Java EE).",
+      "Implemented customer side validations using Angular and created services on UI for storing and retrieving data from UI to the backend.",
+      "Was under migration of the project converting angular components and updating router Modules. Implemented the complete set up with configuration file changes.",
+      "Utilized JSF component libraries and custom components to enhance user experience and improve application functionality."]
     }
   ],
   "cv": "./assets/cv.pdf",
@@ -79,8 +63,8 @@
         },
         {
           "id": 2,
-          "name": "Django",
-          "icon": "./assets/icons/hard-skills/django.svg"
+          "name": "AWS",
+          "icon": "./assets/icons/hard-skills/awsIcon.png"
         },
         {
           "id": 3,
@@ -89,8 +73,8 @@
         },
         {
           "id": 4,
-          "name": "Python",
-          "icon": "./assets/icons/hard-skills/git.svg"
+          "name": "Java",
+          "icon": "./assets/icons/hard-skills/java.svg"
         },
         {
           "id": 5,
@@ -119,39 +103,34 @@
         },
         {
           "id": 10,
-          "name": "Java",
-          "icon": "./assets/icons/hard-skills/java.svg"
-        },
-        {
-          "id": 11,
-          "name": "Android Studio",
-          "icon": "./assets/icons/hard-skills/android_studio.png"
+          "name": "Python",
+          "icon": "./assets/icons/hard-skills/git.svg"
         }
       ],
     "soft_skills": [
       {
         "id": 1,
-        "name": "Trabajo en equipo",
+        "name": "Team Work",
         "icon": "./assets/icons/soft-skills/2.svg"
       },
       {
         "id": 2,
-        "name": "Autodidacta",
+        "name": "Professional",
         "icon": "./assets/icons/soft-skills/5.svg"
       },
       {
         "id": 3,
-        "name": "Facilidad de aprendizaje",
+        "name": "Problem Solver",
         "icon": "./assets/icons/soft-skills/1.svg"
       },
       {
         "id": 4,
-        "name": "Creatividad",
+        "name": "Fast Learner",
         "icon": "./assets/icons/soft-skills/3.svg"
       },
       {
         "id": 5,
-        "name": "Capacidad analítica",
+        "name": "Adaptability",
         "icon": "./assets/icons/soft-skills/4.svg"
       }
     ]
@@ -159,58 +138,14 @@
   "projects": [
     {
       "id": 1,
-      "img": "./assets/imgs/portfolio.png",
-      "title": "Portfolio Personal",
-      "description": "¡Este portafolio! Realicé tanto diseño como programación, aplicando conocimientos en Angular, Figma, Git, usabilidad UX, entre otros, en un reto personal por realizarlo desde el diseño hasta su implementación. Está en constante mejora.",
+      "img": "./assets/imgs/portfolio image.png",
+      "title": "Personal Portfolio",
+      "description": "This portfolio! I did both design and programming, applying knowledge in Angular, SCSS, UX usability, among others, in a personal challenge to do it from design to implementation. It is constantly improving.",
       "skills": ["Angular", "SCSS", "TypeScript"],
       "github": "https://github.com/PaylemanC/myPortfolio",
       "deploy": "#",
       "status": "IN PROGRESS",
       "category": "Frontend"
-    },
-    {
-      "id": 2,
-      "img": "./assets/imgs/clan-f.png",
-      "title": "CLAN-F",
-      "description": "E-commerce ficticio de productos de línea personal como del hogar con Inteligencia Artificial integrada; cuenta con sistema de autenticación y CRUD completo de productos. Desarrollado para el curso de Full Stack en Python con Codo a Codo en equipo con 2 desarrolladores más. Tip: ingresa con paylemanc y admin123 para acceder al panel del CRUD",
-      "skills": ["Django", "MySQL", "HTML", "CSS", "JavaScript", "API", "Bootstrap"],
-      "github": "https://github.com/PaylemanC/CLAN-F--e-commerce/tree/main",
-      "deploy": "https://paylemanc.pythonanywhere.com/",
-      "status": "COMPLETED",
-      "category": "Full Stack"
-    },
-    {
-      "id": 3,
-      "img": "./assets/imgs/mis-rutinas-mobile.png",
-      "title": "MisRutinas - Android",
-      "description": "En continuación al proyecto web, MisRutinas adquiere un nuevo enfoque en la aplicación nativa de Android: destinada a la administración sencilla de socios y clases de gimnasios, con autenticación y 2 CRUD. En 3 meses desarrollamos todo el MVP desde 0 junto a un equipo de otros 4 desarrolladores más, donde me desenvolví en un papel clave como Scrum Master.",
-      "skills": ["Android Studio", "Java", "SQLite", "Firebase Authentication API"],
-      "github": "https://github.com/grupoA7ISPC/MisRutinas--Mobile/tree/develop",
-      "deploy": "",
-      "status": "IN PROGRESS",
-      "category": "Frontend"
-    },
-    {
-      "id": 4,
-      "img": "./assets/imgs/misrutinas.png",
-      "title": "MisRutinas - Web",
-      "description": "Fitness web full stack para creación y seguimiento de rutinas de entrenamiento. El frontend desarrollado en Angular cuenta con sistema de autenticación, CRUD de rutinas y ejercicios y conexión a API desarrollada en Django. Fue llevada a cabo durante un año junto a un equipo de 6 desarrolladores.",
-      "skills": ["Angular", "Django", "MySQL", "Bootstrap"],
-      "github": "https://github.com/grupoA7ISPC/ProyectoISPCGrupo55/tree/main",
-      "deploy": "",
-      "status": "COMPLETED",
-      "category": "Full Stack"
-    },
-    {
-      "id": 5,
-      "img": "./assets/imgs/frontend-mentor.png",
-      "title": "FrontendMentor Challenges",
-      "description": "Recopilación/proyecto Open Source de componentes completos de FrontendMentor como una iniciativa a contribuir soluciones en tecnologías alternativas debido a la poca resolución de estos challenges con el framework de Angular, a forma de práctica y diversión y en continuo desarrollo.",
-      "skills": ["Angular", "API", "TypeScript", "SCSS"],
-      "github": "https://github.com/PaylemanC/frontendmentor--Angular",
-      "deploy": "https://frontendmentorangular.netlify.app/nft-preview-card",
-      "status": "IN PROGRESS",
-      "category": "Full Stack"
     }
   ],
   "social_media": {
